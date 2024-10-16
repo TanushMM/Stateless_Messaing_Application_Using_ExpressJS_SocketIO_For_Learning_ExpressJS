@@ -1,0 +1,29 @@
+{
+  "name": "messaging_application",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Tanush Modem Mahesh",
+  "license": "ISC",
+  "description": "This is a Messaging application developed using ExpressJS and SocketIO. Note: It does not support DB states. Hence, the application always starts with a predefined set of messages.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanushMM/Stateless_Messaing_Application_Using_ExpressJS_SocketIO_For_Learning_ExpressJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TanushMM/Stateless_Messaing_Application_Using_ExpressJS_SocketIO_For_Learning_ExpressJS/issues"
+  },
+  "homepage": "https://github.com/TanushMM/Stateless_Messaing_Application_Using_ExpressJS_SocketIO_For_Learning_ExpressJS#readme"
+}
